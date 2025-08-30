@@ -1,0 +1,8 @@
+{ 
+   "gallery":"My gallery",
+   "images":[
+      {"name":"Photo 1","file":"image1.jpeg"},
+      {"name":"Photo 2","file":"image2.jpeg"},
+      {"name":"Photo 3","file":"image3.jpeg"}
+   ]
+}

@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 30rem;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image-item {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.image-click {
+  transform: scale(2);
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+.image-pick {
+  border: solid 3px #000;
+  border-radius: 20px;
+}
+
+.btn {
+  align-self: flex-start;
+  padding: 16px 12px;
+  border-radius: 24px;
+  border: none;
+  background-color: plum;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: purple;
+  transition: 1.2s;
+}
+
+#progressbar {
+  width: 400px;
+  height: 10px;
+  margin-top: auto;
+}

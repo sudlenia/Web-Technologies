@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>{{ title }}</h1>
+
+    <ul style="display: flex; flex-direction: column; gap: 30px;">
+        {{#sponsors}}
+            <li style="display: flex; align-items: center; gap: 20px;">
+                <img src="{{img}}" alt="{{name}}" width="150">
+                <span>{{name}}</span>
+            </li>
+        {{/sponsors}}
+    </ul>
+    
+    <a class="main-btn" href="/"><button>Главная страница</button></a>
+</body>
+</html>

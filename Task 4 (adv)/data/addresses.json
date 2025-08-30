@@ -1,0 +1,8 @@
+{
+    "title": "Наши адреса",
+    "addresses": [
+        { "name": "ул. Декабристов, 22", "img": "https://avatars.mds.yandex.net/i?id=b5074c50d1ae8d5a3d45ff738dc829b5_l-6361230-images-thumbs&n=13"},
+        { "name": "ул. Мира, 66", "img": "https://avatars.mds.yandex.net/i?id=6a84a3a53977f2367cf0e033e24d20a3_l-5243009-images-thumbs&n=13"},
+        { "name": "пр. Свободный, 76Н", "img": "https://avatars.mds.yandex.net/i?id=7b429bc98e9c25d21da885bc69b26739_l-6217553-images-thumbs&n=13"}
+    ]
+}

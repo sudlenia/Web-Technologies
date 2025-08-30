@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<posts>
+    <post>
+        <title>Первый пост</title>
+        <description>Описание первого поста</description>
+        <image>https://cs6.pikabu.ru/post_img/big/2015/04/26/6/1430037626_1786129976.jpg</image>
+    </post>
+    <post>
+        <title>Второй пост</title>
+        <description>Описание второго поста</description>
+        <image>https://i.pinimg.com/736x/f6/fc/91/f6fc913ef991e9bbe631b873b3af86bb.jpg</image>
+    </post>
+</posts>

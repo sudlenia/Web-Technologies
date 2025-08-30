@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>{{ title }}</h1>
+
+    <p>{{ description }}</p>
+    
+    <form action="/submit" method="POST">
+        <label for="name">{{ name }} <input type="text" name="name"></label>
+        <label for="category">{{ category }}
+            <select name="category">
+                <option value="cloth">Одежда</option>
+                <option value="technique">Техника</option>
+                <option value="decoration">Украшение</option>
+            </select>
+        </label>
+        <label>{{ forSale }} <input type="checkbox" name="forSale"></label>
+        <button style="align-self: flex-start;" type="submit">Отправить</button>
+    </form>
+
+    <a class="main-btn" href="/"><button>Главная страница</button></a>
+</body>
+</html>
